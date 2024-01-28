@@ -1,7 +1,7 @@
 "use server";
 
 import { authOptions } from "@/lib/authOptions";
-import { getLiveblocksClient, liveblocksClient } from "@/lib/liveblocksClient";
+import { liveblocksClient } from "@/lib/liveblocksClient";
 import { Liveblocks, RoomInfo } from "@liveblocks/node";
 import { getServerSession } from "next-auth";
 import uniqid from "uniqid";
